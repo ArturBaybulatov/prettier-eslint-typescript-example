@@ -2,9 +2,14 @@
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "format:watch": "onchange src/ -- prettier --ignore-unknown --write {{changed}}"
+    "format:watch": "onchange src/ -- prettier --ignore-unknown --write {{changed}}",
+    "lint": "npm run format:check && eslint ."
   },
   "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
     "onchange": "^7.0.2",
     "prettier": "2.1.2"
   }

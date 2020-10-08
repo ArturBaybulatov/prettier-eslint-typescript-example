@@ -1,14 +1,17 @@
 const upper = s => s.toUpperCase();
 
 function test(
-  foo = 'lorem',
-  bar = 'ipsum',
-  baz = 'dolor',
-  qux = 'sit',
-  quux = 'amet',
+  fooooooooo = 'lorem',
+  baaaaaaaar = 'ipsum',
+  baaaaaaaaaaaz = 'dolor',
 ) {
+  console.log(fooooooooo, baaaaaaaar, baaaaaaaaaaaz);
   return 123;
 }
+
+try {
+  window.xxx();
+} catch {}
 
 const ok = () => true;
 
@@ -18,3 +21,7 @@ const obj = {
   baz: 'hello',
   qux: ok ? 'yes' : 'no',
 };
+
+console.log(upper('sdfg'));
+console.log(test());
+console.log(obj);
