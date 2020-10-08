@@ -19,15 +19,12 @@
     "func-names": "off",
     "import/extensions": "off",
     "import/prefer-default-export": "off",
-    "linebreak-style": "off",
-    "newline-per-chained-call": "off",
     "no-async-promise-executor": "off",
     "no-console": "off",
     "no-continue": "off",
     "no-else-return": "off",
     "no-empty": "off",
     "no-implicit-coercion": ["error", {}],
-    "no-multiple-empty-lines": "off",
     "no-param-reassign": "off",
     "no-plusplus": "off",
     "no-restricted-globals": "off",
@@ -35,7 +32,6 @@
     "no-sequences": "off",
     "no-shadow": "off",
     "no-underscore-dangle": "off",
-    "object-curly-newline": "off",
     "spaced-comment": "off"
   }
 }
