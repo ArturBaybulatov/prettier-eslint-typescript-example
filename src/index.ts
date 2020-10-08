@@ -10,7 +10,7 @@ function test(
 }
 
 try {
-  window.xxx();
+  JSON.parse('');
 } catch {}
 
 const num = BigInt('99999999999999999999999999999999999999999999999');
@@ -24,7 +24,7 @@ const obj = {
   bar: 2,
   baz: 'hello',
 
-  qux: ok
+  qux: ok()
     ? 'yeeeeeeeeeeeeeeeeeeeeeeeeeeeeeees'
     : 'nooooooooooooooooooooooooooooooo',
 };
