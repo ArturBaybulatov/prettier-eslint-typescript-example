@@ -1,4 +1,4 @@
-const upper = s => s.toUpperCase();
+const upper = (s: string) => s.toUpperCase();
 
 function test(
   fooooooooo = 'lorem',
@@ -12,8 +12,6 @@ function test(
 try {
   JSON.parse('');
 } catch {}
-
-const num = BigInt('99999999999999999999999999999999999999999999999');
 
 const fileReader = new FileReader();
 
@@ -31,6 +29,5 @@ const obj = {
 
 console.log(upper('sdfg'));
 console.log(test());
-console.log(num);
 console.log(fileReader);
 console.log(obj);
