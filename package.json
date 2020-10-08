@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "format:watch": "onchange src/ -- prettier --ignore-unknown --write {{changed}}"
+  },
+  "devDependencies": {
+    "onchange": "^7.0.2",
+    "prettier": "2.1.2"
+  }
+}
