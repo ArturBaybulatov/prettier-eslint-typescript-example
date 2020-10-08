@@ -13,6 +13,10 @@ try {
   window.xxx();
 } catch {}
 
+const num = BigInt('99999999999999999999999999999999999999999999999');
+
+const fileReader = new FileReader();
+
 const ok = () => true;
 
 const obj = {
@@ -27,4 +31,6 @@ const obj = {
 
 console.log(upper('sdfg'));
 console.log(test());
+console.log(num);
+console.log(fileReader);
 console.log(obj);
