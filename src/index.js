@@ -19,7 +19,10 @@ const obj = {
   foo: 1,
   bar: 2,
   baz: 'hello',
-  qux: ok ? 'yes' : 'no',
+
+  qux: ok
+    ? 'yeeeeeeeeeeeeeeeeeeeeeeeeeeeeeees'
+    : 'nooooooooooooooooooooooooooooooo',
 };
 
 console.log(upper('sdfg'));
