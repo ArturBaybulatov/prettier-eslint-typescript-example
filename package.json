@@ -3,9 +3,7 @@
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "format:watch": "onchange src/ -- prettier --ignore-unknown --write {{changed}}",
-    "lint": "npm run format:check && eslint .",
-    "validate-eslint-config": "npx eslint --print-config src/index.js | npx eslint-config-prettier-check"
+    "lint": "npm run format:check && eslint ."
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.1",
@@ -15,7 +13,6 @@
     "eslint-config-airbnb-typescript": "^11.0.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-import": "^2.22.1",
-    "onchange": "^7.0.2",
     "prettier": "2.1.2",
     "typescript": "^4.0.3"
   }
